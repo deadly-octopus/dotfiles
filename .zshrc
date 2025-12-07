@@ -1,0 +1,24 @@
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+export HOMEBREW_NO_UPDATE_REPORT_CASKS=1
+export HOMEBREW_NO_UPDATE_REPORT_FORMULAE=1
+
+# Default aliases
+# alias ls='ls --color=always'
+# alias l='ls -CF'
+alias grep='grep --color=auto'
+
+# My aliases
+alias ls='eza'
+alias ll='eza -lh'
+alias la='eza -lha'
+alias worktime='zsh ~/work-vpn.sh'
+alias stat='stat -x'
+alias nvi='nvim'
+
+PROMPT='%B%F{blue}%~%f 
+%F{green}>%f '
