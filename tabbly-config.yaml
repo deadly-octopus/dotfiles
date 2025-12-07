@@ -1111,6 +1111,18 @@ profiles:
     group: 360a458e-9c5e-4075-8f45-21a9eb911326
     color: '#ffd500'
     type: ssh
+  - name: Test SSH
+    options:
+      host: 1.1.1.1
+      algorithms: {}
+      input: {}
+      user: root
+    weight: -1
+    color: '#ffd500'
+    icon: fas fa-server
+    group: 360a458e-9c5e-4075-8f45-21a9eb911326
+    type: ssh
+    id: ssh:custom:Test-SSH:dcd10432-4814-4f57-a224-8a46b54e8f50
 enableAutomaticUpdates: false
 clippyPlugin: {}
 hideTray: true
