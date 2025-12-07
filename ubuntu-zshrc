@@ -1,0 +1,18 @@
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+HISTSIZE=1000
+HISTFILESIZE=2000
+
+setopt prompt_subst
+
+# PROMPT='%B%F{green}%n@%m%f %F{blue}%~%f %#%b '
+PROMPT='%B%F{blue}[%n@%m]%f %B%F{blue}%~%f 
+%F{green}>%f%b '
+
+EDITOR=/usr/bin/vi
+
+alias grep='grep --color=auto'
+
+alias ls='eza'
+alias ll='eza -lh'
+alias la='eza -lha'
