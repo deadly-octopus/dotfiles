@@ -1117,6 +1117,9 @@ profiles:
       algorithms: {}
       input: {}
       user: root
+      privateKeys:
+        - >-
+          vault://76fd49085975f292872b17c86465eebc4b23415261b1338b4263034a54b41b79
     weight: -1
     color: '#ffd500'
     icon: fas fa-server
