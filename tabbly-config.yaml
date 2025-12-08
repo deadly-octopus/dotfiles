@@ -384,6 +384,14 @@ ssh:
       port: 22
       type: ecdsa-sha2-nistp256
       digest: sMnUrJ63ZNi5ngFd4eX0NFObCe+5dNfVxJRCE2wBiYI=
+    - host: 192.168.15.225
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: 2C+4pMmipn1gZlaRhSv49GQA7wCmXo/97Bc+qiWqS2s=
+    - host: 192.168.11.225
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: 2C+4pMmipn1gZlaRhSv49GQA7wCmXo/97Bc+qiWqS2s=
 clickableLinks: {}
 accessibility:
   animations: false
@@ -398,9 +406,9 @@ pluginBlacklist:
 vault:
   version: 1
   contents: >-
-    tfA1dvlXsKnHF8WhrkCWGzxpL/F6GPOBedHrPONA3Xgcwjje0zCViywoR/Vb1nEoWsh0gHnBrSt6qrOyXv23HWj6eAHYFpK68jv/QkBoUKkhJEPpBPUYcazVe8yXGvh7YdCcqr43Cy5lVB1lF1+JwZ6I9WueNqy/VKmeuOfJuEZdcquUg8expCgLqJKof2prOVtgciJMWPOFTcXhMGsgPIcac9vJuhQ2NPEfmWKdHiWy8TUW9Hb2iYd0rrMEd3DZD9l3yjORNAbRJNXlWUOueHLQOHYQv4BpJ4xlXewfJlZvKsJmz8O/z0kkGpR4D38Xc12bs6f6+vw461QbAx8jWx7QUonqoTPTdT+U5yIlr3keueupCABMPJANK0eORGMqsJZ/FXjFUb7T/Zp6uTVCZOpk9d1jUU+whg3e3XLdTxJs7jVsih4LBe/5qaccu2K1uGdJgBEwp81O1rclVAP+qKml1+wqYHmegEH7aNS+6GZGXQR95y4A+p2FBcCds4KNa1Fn4Sc2rqpy1nKKmWhSck/keaTMmDJN1TqDYoAp4Vu6YCcMO9qNbXW2ujdhjYO/ENPv92OK8NqQP1Z3Bv6ntoQiSLHbBmc/2kYiUhie1+bbfdvAIUsmimPt1dT7Y05SjaRNPBpSeXuTohBoJleUUhj6mkpPfEvMn2gguo/LNdMnY9FAgjc1JDIq8XRKKvwRScCW83tj1x92gViduatA/zwygkB3a6AhxSvDkXbww3tzj2VbJB+G9zQoAtlAcSLpUJhDrFKuGTDxcb5gYzaPTQ5NFqAh7MnNlzEQI7gXWQG+IA8RwLK7nH19j+VIrAvmweo6lOs6DG3QMdY+guPJHhVEZWvHyPE24QLmeZbPwtPU9EyrSE6i87YZUyPX0XZv7NYSjjFeoNHH9Lo7KGX62AJv0WsdNZHoPlxNeoLxURiwUomzClMnT+AHzrqEEaWUT5n6YdW6M80iwDJJQCMngdXpXBV5sDg1tV8wvDSkTV2+tMJwPZEkL6LghZB/of017viZpWS0Z85oJABjwcofpxFX7hwgsqWkZa0d/FbpiEGh67Sf43eB3+aOkE9paOZtcUX9wmW685lwXQSOxDyKTDsE23k3WKQm5Gm5rrdedtWwxlXvCbS1TIqVx1Cc9kEeTMVR20L9Z9mlsAmyOju1330NvsQucIPoM7LWT7ymSz7K9HZTUiMG7Qt5KuWjqlW8Ikhm2sQGAXBKsgDuRST/GmYno43OI0Jam3XM7cB6l22iyitjCIQi9JsaeMAplARJijq9TzZxA6WUbjYYLxWAm6dpuk4lSkC70c6g7J6CfKDgDzFdaESVvtMWTGGb70+mEu3pFaYrYI7E9M3LEz3I8OlKImx54EbVu7FjtMDqVMzX/YDqtl0idip0Zrl6UfuPW2ZGdn8FP1/z2YfLix3SyWXhCAvXzhn0gjYbEFU4IXH1KAKZ5EGnFx/3tXgzlKL/NTziUFAB+cqvNNrpUmX40X0A+aS1Vuio4Jx+v/zYvc76DoMlPTh2IKMp692jg8MMMLgJgkqszevFYBxuhHp0UU6DgdBMGAT13EBH2aK1j0jkftq0KGrib/XbYz1XRVx5QtuFonJlapultZEINr3deWeW9X+i4WS7S+dhmnxMF2DY8CN+Awl9Kaq0VcmyOpHxto1K5c7N7JSJ3nt1SeQmOIhY2KMSgQnyGcorR0WadVPwWsuctcEFqtKlT4GDDrd5kJP/DD5t/7mcuoSdtjXxeP84eqxGnXjN7rxWfe4uYTWLblrD0Rfim5WqIrReXthw6bJGg83glaPq/IKihwLSKW/VxGxPVSY0CGHXEH/DYfzqwvCoekk3U3F6emlu/a2xhulfW+B3MWOW5aBS+lNUdMjnOhpHdm2t9jp93TsKMsgBvJr7bofHuh8oA2AvchsUZ3ggU3uePMBX7JjKIE08X7Dr5KoHy8wMuom72MRe8JvWn1rHyEJIj9HMv5ueDFjPRWtkbF7x47AOxb3OHK+gR5aqmiVQte6QoeSPMqO831lBUbeZV/rDsqHmHM2uZV1MG2eOnRaNg7/hnKdXxDpphvtjaPJUPawZz+0ZTpOsOH9DP5Y1OgxROPOqvlTWS/Sl+aFYmnm5QP5+PsbT3QGmR3dpj+N1GvqWLwO3E8yUQGLvjVIPiaNqmiU8yYYLcI1ts0tMEPeEKJgu0CmhmxmwaWch0ButMkfshNQQ48WBoViymtmr5+JSg0g80jWlKid20Jy/X/hdXvAOhQn1AxzStDvpsl70u+HnPn7GUN/2kd4RzouHT8/ULLudkUX7g+DTlkDP+0Aouh+rtkpesTOJd/duIRVPHjOOcxgpottH6e7pLFIvDRso3focwxzy0u9O2u2y8DFwgeZZEQiV7i9QiWEtb/xNIMlYidJErWrfhFP4x7xBJBD5IxFm68TQaCGl
-  keySalt: 72c28958fd9befb5
-  iv: 88a27aecd85944f678ad037677b9da98
+    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
+  keySalt: 1c5a376c3f53aacd
+  iv: 5b10de0815eeeb5ab3723f0a950367a0
 profileDefaults:
   ssh:
     disableDynamicTitle: true
@@ -958,6 +966,8 @@ profiles:
           - rsa-sha2-512
           - ssh-ed25519
           - ssh-rsa
+        compression:
+          - none
       input: {}
       user: n.loginov@itprotect.local
       auth: password
@@ -972,6 +982,55 @@ profiles:
     name: Ideco Office VCE
     group: 360a458e-9c5e-4075-8f45-21a9eb911326
     id: ssh:custom:Ideco:fb8a3b90-702c-4cdb-b425-95cd7be1a64b
+    type: ssh
+  - options:
+      host: 192.168.11.225
+      algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
+        kex:
+          - curve25519-sha256
+          - curve25519-sha256@libssh.org
+          - diffie-hellman-group14-sha256
+          - diffie-hellman-group16-sha512
+          - ext-info-c
+          - ext-info-s
+          - kex-strict-c-v00@openssh.com
+          - kex-strict-s-v00@openssh.com
+          - mlkem768x25519-sha256
+        cipher:
+          - aes128-ctr
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm@openssh.com
+          - chacha20-poly1305@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+        compression:
+          - none
+      input: {}
+      user: nloginov
+      privateKeys:
+        - >-
+          vault://fcb25328ab59feb9b1f0f3192a5d20af155df8c6e13d39a207502744bf186b96
+      forwardedPorts: []
+      scripts: []
+    weight: -1
+    color: '#ffd500'
+    icon: fas fa-server
+    name: ITP Office Wireguard
+    group: 360a458e-9c5e-4075-8f45-21a9eb911326
+    id: ssh:custom:ITP-Office-Wireguard:9ee7c926-6d71-4365-a4a7-fa192d039a1a
     type: ssh
   - options:
       host: 192.168.201.2
@@ -1051,6 +1110,8 @@ profiles:
           - rsa-sha2-512
           - ssh-ed25519
           - ssh-rsa
+        compression:
+          - none
       input: {}
       user: wrgd
       auth: password
@@ -1099,6 +1160,8 @@ profiles:
           - rsa-sha2-512
           - ssh-ed25519
           - ssh-rsa
+        compression:
+          - none
       input: {}
       privateKeys:
         - >-
@@ -1111,21 +1174,6 @@ profiles:
     group: 360a458e-9c5e-4075-8f45-21a9eb911326
     color: '#ffd500'
     type: ssh
-  - name: Test SSH
-    options:
-      host: 1.1.1.1
-      algorithms: {}
-      input: {}
-      user: root
-      privateKeys:
-        - >-
-          vault://76fd49085975f292872b17c86465eebc4b23415261b1338b4263034a54b41b79
-    weight: -1
-    color: '#ffd500'
-    icon: fas fa-server
-    group: 360a458e-9c5e-4075-8f45-21a9eb911326
-    type: ssh
-    id: ssh:custom:Test-SSH:dcd10432-4814-4f57-a224-8a46b54e8f50
 enableAutomaticUpdates: false
 clippyPlugin: {}
 hideTray: true
