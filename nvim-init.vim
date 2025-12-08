@@ -8,7 +8,6 @@
 :set softtabstop=4
 :set mouse=a
 :set cursorline
-":set termguicolors
 
 :hi Normal guibg=NONE ctermbg=NONE
 :hi EndOfBuffer guibg=NONE ctermbg=NONE
@@ -18,5 +17,7 @@ call plug#begin()
 Plug 'vim-airline/vim-airline'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-fugitive'
+Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
