@@ -260,8 +260,10 @@ terminal:
   hideCloseButton: true
   fallbackFont: Ubuntu Mono
   font: Ubuntu Mono
-  hideTabOptionsButton: true
   frontend: xterm
+  cursor: underline
+  showTabProfileIcon: true
+  hideTabOptionsButton: true
 ssh:
   knownHosts:
     - host: 192.168.3.110
@@ -406,9 +408,9 @@ pluginBlacklist:
 vault:
   version: 1
   contents: >-
-    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
-  keySalt: 1c5a376c3f53aacd
-  iv: 5b10de0815eeeb5ab3723f0a950367a0
+    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
+  keySalt: 0bb7957b24dfe52b
+  iv: 20b90a0af7d482e3a099425378daa290
 profileDefaults:
   ssh:
     disableDynamicTitle: true
@@ -477,6 +479,8 @@ profiles:
           - rsa-sha2-512
           - ssh-ed25519
           - ssh-rsa
+        compression:
+          - none
       input: {}
       user: root
       privateKeys:
@@ -875,75 +879,22 @@ profiles:
     group: c14a8f59-05c7-4ae5-a46f-e1c694a5d111
     id: ssh:custom:Veesp-Latvia:05eac475-c5ad-4302-9759-90acf03585b5
     type: ssh
-  - name: GLONASS Admin ARM
-    icon: fas fa-server
-    options:
-      host: 10.77.104.5
-      user: support
-      algorithms:
-        hmac:
-          - hmac-sha1
-          - hmac-sha1-etm@openssh.com
-          - hmac-sha2-256
-          - hmac-sha2-256-etm@openssh.com
-          - hmac-sha2-512
-          - hmac-sha2-512-etm@openssh.com
-        kex:
-          - curve25519-sha256
-          - curve25519-sha256@libssh.org
-          - diffie-hellman-group14-sha256
-          - diffie-hellman-group16-sha512
-          - ext-info-c
-          - ext-info-s
-          - kex-strict-c-v00@openssh.com
-          - kex-strict-s-v00@openssh.com
-        cipher:
-          - aes128-ctr
-          - aes192-ctr
-          - aes256-ctr
-          - aes256-gcm@openssh.com
-          - chacha20-poly1305@openssh.com
-        serverHostKey:
-          - ecdsa-sha2-nistp256
-          - ecdsa-sha2-nistp521
-          - rsa-sha2-256
-          - rsa-sha2-512
-          - ssh-ed25519
-          - ssh-rsa
-      input: {}
-      auth: password
-      privateKeys:
-        - file:///Users/nick/.ssh/id_ed25519
-      forwardedPorts: []
-      scripts: []
-    weight: -1
-    group: 360a458e-9c5e-4075-8f45-21a9eb911326
-    id: ssh:custom:GLONASS-Admin-ARM:d0c767a0-8d27-4126-8999-0d9b519683de
-    color: '#ffd500'
-    type: ssh
   - name: Ideco Nubes
     options:
       host: 192.168.100.254
       algorithms: {}
       input: {}
       user: n.loginov@itprotect.local
-      auth: password
+      privateKeys: []
     weight: -1
     color: '#ffd500'
-    icon: fas fa-server
+    icon: fas fa-fire
     group: 360a458e-9c5e-4075-8f45-21a9eb911326
-    type: ssh
     id: ssh:custom:Ideco-Nubes:a07eadf8-09a4-4669-9057-940db6fd6d09
+    type: ssh
   - options:
       host: 192.168.250.11
       algorithms:
-        hmac:
-          - hmac-sha1
-          - hmac-sha1-etm@openssh.com
-          - hmac-sha2-256
-          - hmac-sha2-256-etm@openssh.com
-          - hmac-sha2-512
-          - hmac-sha2-512-etm@openssh.com
         kex:
           - curve25519-sha256
           - curve25519-sha256@libssh.org
@@ -953,95 +904,35 @@ profiles:
           - ext-info-s
           - kex-strict-c-v00@openssh.com
           - kex-strict-s-v00@openssh.com
-        cipher:
-          - aes128-ctr
-          - aes192-ctr
-          - aes256-ctr
-          - aes256-gcm@openssh.com
-          - chacha20-poly1305@openssh.com
-        serverHostKey:
-          - ecdsa-sha2-nistp256
-          - ecdsa-sha2-nistp521
-          - rsa-sha2-256
-          - rsa-sha2-512
-          - ssh-ed25519
-          - ssh-rsa
-        compression:
-          - none
       input: {}
       user: n.loginov@itprotect.local
+      privateKeys: []
       auth: password
-      privateKeys:
-        - >-
-          vault://76fd49085975f292872b17c86465eebc4b23415261b1338b4263034a54b41b79
-      forwardedPorts: []
-      scripts: []
     weight: -1
     color: '#ffd500'
-    icon: fas fa-server
+    icon: fas fa-fire
     name: Ideco Office VCE
     group: 360a458e-9c5e-4075-8f45-21a9eb911326
     id: ssh:custom:Ideco:fb8a3b90-702c-4cdb-b425-95cd7be1a64b
     type: ssh
   - options:
       host: 192.168.11.225
-      algorithms:
-        hmac:
-          - hmac-sha1
-          - hmac-sha1-etm@openssh.com
-          - hmac-sha2-256
-          - hmac-sha2-256-etm@openssh.com
-          - hmac-sha2-512
-          - hmac-sha2-512-etm@openssh.com
-        kex:
-          - curve25519-sha256
-          - curve25519-sha256@libssh.org
-          - diffie-hellman-group14-sha256
-          - diffie-hellman-group16-sha512
-          - ext-info-c
-          - ext-info-s
-          - kex-strict-c-v00@openssh.com
-          - kex-strict-s-v00@openssh.com
-          - mlkem768x25519-sha256
-        cipher:
-          - aes128-ctr
-          - aes192-ctr
-          - aes256-ctr
-          - aes256-gcm@openssh.com
-          - chacha20-poly1305@openssh.com
-        serverHostKey:
-          - ecdsa-sha2-nistp256
-          - ecdsa-sha2-nistp521
-          - rsa-sha2-256
-          - rsa-sha2-512
-          - ssh-ed25519
-          - ssh-rsa
-        compression:
-          - none
+      algorithms: {}
       input: {}
       user: nloginov
       privateKeys:
         - >-
           vault://fcb25328ab59feb9b1f0f3192a5d20af155df8c6e13d39a207502744bf186b96
-      forwardedPorts: []
-      scripts: []
     weight: -1
     color: '#ffd500'
-    icon: fas fa-server
     name: ITP Office Wireguard
     group: 360a458e-9c5e-4075-8f45-21a9eb911326
     id: ssh:custom:ITP-Office-Wireguard:9ee7c926-6d71-4365-a4a7-fa192d039a1a
+    icon: fas fa-network-wired
     type: ssh
   - options:
       host: 192.168.201.2
       algorithms:
-        hmac:
-          - hmac-sha1
-          - hmac-sha1-etm@openssh.com
-          - hmac-sha2-256
-          - hmac-sha2-256-etm@openssh.com
-          - hmac-sha2-512
-          - hmac-sha2-512-etm@openssh.com
         kex:
           - curve25519-sha256
           - curve25519-sha256@libssh.org
@@ -1051,26 +942,13 @@ profiles:
           - ext-info-s
           - kex-strict-c-v00@openssh.com
           - kex-strict-s-v00@openssh.com
-        cipher:
-          - aes128-ctr
-          - aes192-ctr
-          - aes256-ctr
-          - aes256-gcm@openssh.com
-          - chacha20-poly1305@openssh.com
-        serverHostKey:
-          - ecdsa-sha2-nistp256
-          - ecdsa-sha2-nistp521
-          - rsa-sha2-256
-          - rsa-sha2-512
-          - ssh-ed25519
-          - ssh-rsa
       input: {}
       user: nloginov
-      privateKeys: []
-      forwardedPorts: []
-      scripts: []
+      privateKeys:
+        - >-
+          vault://76fd49085975f292872b17c86465eebc4b23415261b1338b4263034a54b41b79
     weight: -1
-    icon: fas fa-server
+    icon: fas fa-network-wired
     color: '#ffd500'
     name: ITP Openconnect
     clearServiceMessagesOnConnect: false
@@ -1081,13 +959,6 @@ profiles:
     options:
       host: 192.168.100.225
       algorithms:
-        hmac:
-          - hmac-sha1
-          - hmac-sha1-etm@openssh.com
-          - hmac-sha2-256
-          - hmac-sha2-256-etm@openssh.com
-          - hmac-sha2-512
-          - hmac-sha2-512-etm@openssh.com
         kex:
           - curve25519-sha256
           - curve25519-sha256@libssh.org
@@ -1097,47 +968,19 @@ profiles:
           - ext-info-s
           - kex-strict-c-v00@openssh.com
           - kex-strict-s-v00@openssh.com
-        cipher:
-          - aes128-ctr
-          - aes192-ctr
-          - aes256-ctr
-          - aes256-gcm@openssh.com
-          - chacha20-poly1305@openssh.com
-        serverHostKey:
-          - ecdsa-sha2-nistp256
-          - ecdsa-sha2-nistp521
-          - rsa-sha2-256
-          - rsa-sha2-512
-          - ssh-ed25519
-          - ssh-rsa
-        compression:
-          - none
       input: {}
       user: wrgd
       auth: password
-      privateKeys:
-        - >-
-          vault://76fd49085975f292872b17c86465eebc4b23415261b1338b4263034a54b41b79
-      forwardedPorts: []
-      scripts: []
     weight: -1
     color: '#ffd500'
-    icon: fas fa-server
+    icon: fas fa-network-wired
     group: 360a458e-9c5e-4075-8f45-21a9eb911326
-    type: ssh
     id: ssh:custom:ITP-Wireguard-Nubes:96c487c8-40ef-44ed-90c3-0ed886519f0e
-  - icon: fas fa-server
-    options:
+    type: ssh
+  - options:
       host: 192.168.3.110
       user: nick
       algorithms:
-        hmac:
-          - hmac-sha1
-          - hmac-sha1-etm@openssh.com
-          - hmac-sha2-256
-          - hmac-sha2-256-etm@openssh.com
-          - hmac-sha2-512
-          - hmac-sha2-512-etm@openssh.com
         kex:
           - curve25519-sha256
           - curve25519-sha256@libssh.org
@@ -1147,32 +990,16 @@ profiles:
           - ext-info-s
           - kex-strict-c-v00@openssh.com
           - kex-strict-s-v00@openssh.com
-        cipher:
-          - aes128-ctr
-          - aes192-ctr
-          - aes256-ctr
-          - aes256-gcm@openssh.com
-          - chacha20-poly1305@openssh.com
-        serverHostKey:
-          - ecdsa-sha2-nistp256
-          - ecdsa-sha2-nistp521
-          - rsa-sha2-256
-          - rsa-sha2-512
-          - ssh-ed25519
-          - ssh-rsa
-        compression:
-          - none
       input: {}
       privateKeys:
         - >-
           vault://76fd49085975f292872b17c86465eebc4b23415261b1338b4263034a54b41b79
-      forwardedPorts: []
-      scripts: []
     weight: -1
     name: Work Ubuntu
     id: ssh:custom:Work-Ubuntu:7f6b008f-8e4b-4ad6-8884-b7f80dd75e24
     group: 360a458e-9c5e-4075-8f45-21a9eb911326
     color: '#ffd500'
+    icon: fas fa-desktop
     type: ssh
 enableAutomaticUpdates: false
 clippyPlugin: {}

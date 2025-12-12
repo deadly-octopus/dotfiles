@@ -1,6 +1,6 @@
 :syntax enable
 :set number
-:set relativenumber
+":set relativenumber
 :set autoindent
 :set tabstop=4
 :set shiftwidth=4
@@ -8,6 +8,7 @@
 :set softtabstop=4
 :set mouse=a
 :set cursorline
+:set termguicolors
 
 :hi Normal guibg=NONE ctermbg=NONE
 :hi EndOfBuffer guibg=NONE ctermbg=NONE
