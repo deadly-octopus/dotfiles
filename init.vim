@@ -11,9 +11,16 @@
 :set termguicolors
 :set encoding=utf-8
 :set ignorecase
+:set wildmenu
+:set wildmode=longest:full,full
 
 :hi Normal guibg=NONE ctermbg=NONE
 :hi EndOfBuffer guibg=NONE ctermbg=NONE
+
+let g:airline_theme = 'term'
+let g:airline_section_z = 'lines:%L'
+let g:airline_section_warning = ''
+let g:airline_section_error = ''
 
 call plug#begin()
 
