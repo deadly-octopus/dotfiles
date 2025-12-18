@@ -15,6 +15,39 @@
 :set wildmode=longest:full,full
 :set background=dark
 
+function! HalfPageToggle(dir)
+  let delta = winheight(0) / 2
+
+  if a:dir ==# 'down'
+    if !exists('b:half_down') || b:half_down == 0
+      " Шаг 1: курсор вниз на пол-экрана
+      let target = min([line('$'), line('.') + delta])
+      call cursor(target, col('.'))
+      let b:half_down = 1
+    else
+      " Шаг 2: прокрутка окна вниз на пол-экрана
+      execute 'normal! ' . delta . "\<C-e>"
+      let b:half_down = 0
+    endif
+
+  else " up
+    if !exists('b:half_up') || b:half_up == 0
+      " Шаг 1: курсор вверх на пол-экрана
+      let target = max([1, line('.') - delta])
+      call cursor(target, col('.'))
+      let b:half_up = 1
+    else
+      " Шаг 2: прокрутка окна вверх на пол-экрана
+      execute 'normal! ' . delta . "\<C-y>"
+      let b:half_up = 0
+    endif
+  endif
+endfunction
+
+nnoremap <silent> <C-d> :call HalfPageToggle('down')<CR>
+nnoremap <silent> <C-u> :call HalfPageToggle('up')<CR>
+
+
 ":hi Normal guibg=NONE ctermbg=NONE
 ":hi EndOfBuffer guibg=NONE ctermbg=NONE
 
