@@ -19,7 +19,6 @@ alias ls='eza'
 alias ll='eza -lh'
 alias la='eza -lha'
 alias stat='stat -x'
-alias nvi='nvim'
 
 PROMPT='%B%F{blue}%~%f 
 %F{green}>%f '

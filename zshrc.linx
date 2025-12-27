@@ -17,4 +17,3 @@ alias ls='eza'
 alias ll='eza -lh'
 alias la='eza -lha'
 
-alias nvi='nvim'
