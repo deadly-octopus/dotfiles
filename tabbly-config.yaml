@@ -345,7 +345,7 @@ ssh:
     - host: 192.168.10.103
       port: 22
       type: ecdsa-sha2-nistp256
-      digest: Kv9tSXQQUS8ciub+Am1o7xl1Tg5ugcf2sUZMFSCFNDg=
+      digest: jjWlh8P/SDPv7vOh5+iIN7f5PbBqONtr7rSo1SZqnQw=
     - host: 192.168.3.168
       port: 22
       type: ecdsa-sha2-nistp256
@@ -394,6 +394,14 @@ ssh:
       port: 22
       type: ecdsa-sha2-nistp256
       digest: 2C+4pMmipn1gZlaRhSv49GQA7wCmXo/97Bc+qiWqS2s=
+    - host: 192.168.99.3
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: vEmzKSJtChPhpoKXCndixFgKgkekSnEmvxmPfgl1JCo=
+    - host: 192.168.99.225
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: HzgwOVS/rW8uSi1HG31WSK7eQTOXxHCaVKGnZd/aU8Q=
 clickableLinks: {}
 accessibility:
   animations: false
@@ -408,9 +416,9 @@ pluginBlacklist:
 vault:
   version: 1
   contents: >-
-    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
-  keySalt: a6bf0cffd6b914f3
-  iv: 19136926883f6aadfdf2138a1a537d17
+    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
+  keySalt: de86e19c65b253c2
+  iv: f86ed0de1f9db7bbe7976338bf9391a2
 profileDefaults:
   ssh:
     disableDynamicTitle: true
@@ -635,6 +643,8 @@ profiles:
           - rsa-sha2-512
           - ssh-ed25519
           - ssh-rsa
+        compression:
+          - none
       input: {}
       user: root
       privateKeys:
@@ -680,6 +690,8 @@ profiles:
           - rsa-sha2-512
           - ssh-ed25519
           - ssh-rsa
+        compression:
+          - none
       input: {}
       user: root
       privateKeys:
@@ -740,6 +752,19 @@ profiles:
     group: b55a8240-4a99-4d31-92b3-f16237b7ccf7
     id: ssh:custom:Uptime-Kuma:f58b9caf-c4ec-4977-bb1b-aaae804693f4
     type: ssh
+  - name: Xray
+    options:
+      host: 192.168.10.103
+      algorithms: {}
+      input: {}
+      privateKeys: []
+      user: root
+    weight: -1
+    color: '#ffd500'
+    icon: fas fa-server
+    group: b55a8240-4a99-4d31-92b3-f16237b7ccf7
+    type: ssh
+    id: ssh:custom:Xray:83033a5c-a4af-4a47-89dc-e0771af8be71
   - name: My MSK Hosting Russia
     icon: fas fa-server
     options:
@@ -775,6 +800,8 @@ profiles:
           - rsa-sha2-512
           - ssh-ed25519
           - ssh-rsa
+        compression:
+          - none
       input: {}
       privateKeys:
         - >-
@@ -819,6 +846,8 @@ profiles:
           - rsa-sha2-512
           - ssh-ed25519
           - ssh-rsa
+        compression:
+          - none
       input: {}
       user: nick
       privateKeys:
@@ -902,11 +931,45 @@ profiles:
     options:
       host: virtus.karachai-code.run
       user: nick
-      algorithms: {}
+      algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
+        kex:
+          - curve25519-sha256
+          - curve25519-sha256@libssh.org
+          - diffie-hellman-group14-sha256
+          - diffie-hellman-group16-sha512
+          - ext-info-c
+          - ext-info-s
+          - kex-strict-c-v00@openssh.com
+          - kex-strict-s-v00@openssh.com
+          - mlkem768x25519-sha256
+        cipher:
+          - aes128-ctr
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm@openssh.com
+          - chacha20-poly1305@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+        compression:
+          - none
       input: {}
       privateKeys:
         - >-
           vault://76fd49085975f292872b17c86465eebc4b23415261b1338b4263034a54b41b79
+      forwardedPorts: []
+      scripts: []
     weight: -1
     name: Veesp Latvia
     color: '#ffd500'
@@ -948,21 +1011,6 @@ profiles:
     name: Ideco Office VCE
     group: 360a458e-9c5e-4075-8f45-21a9eb911326
     id: ssh:custom:Ideco:fb8a3b90-702c-4cdb-b425-95cd7be1a64b
-    type: ssh
-  - options:
-      host: 192.168.11.225
-      algorithms: {}
-      input: {}
-      user: nloginov
-      privateKeys:
-        - >-
-          vault://fcb25328ab59feb9b1f0f3192a5d20af155df8c6e13d39a207502744bf186b96
-    weight: -1
-    color: '#ffd500'
-    name: ITP Office Wireguard
-    group: 360a458e-9c5e-4075-8f45-21a9eb911326
-    id: ssh:custom:ITP-Office-Wireguard:9ee7c926-6d71-4365-a4a7-fa192d039a1a
-    icon: fas fa-network-wired
     type: ssh
   - options:
       host: 192.168.99.3
@@ -1016,8 +1064,15 @@ profiles:
     type: ssh
   - name: ITP Wireguard Nubes
     options:
-      host: 192.168.100.225
+      host: 192.168.99.225
       algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
         kex:
           - curve25519-sha256
           - curve25519-sha256@libssh.org
@@ -1027,14 +1082,84 @@ profiles:
           - ext-info-s
           - kex-strict-c-v00@openssh.com
           - kex-strict-s-v00@openssh.com
+          - mlkem768x25519-sha256
+        cipher:
+          - aes128-ctr
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm@openssh.com
+          - chacha20-poly1305@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+        compression:
+          - none
       input: {}
-      user: wrgd
+      privateKeys:
+        - >-
+          vault://fcb25328ab59feb9b1f0f3192a5d20af155df8c6e13d39a207502744bf186b96
+      user: nloginov
       auth: password
+      forwardedPorts: []
+      scripts: []
     weight: -1
     color: '#ffd500'
-    icon: fas fa-network-wired
+    icon: fas fa-server
     group: 360a458e-9c5e-4075-8f45-21a9eb911326
-    id: ssh:custom:ITP-Wireguard-Nubes:96c487c8-40ef-44ed-90c3-0ed886519f0e
+    id: ssh:custom:ITP-Wireguard-Nubes:8c345176-084f-4d91-9868-bfc987097fa5
+    type: ssh
+  - options:
+      host: 192.168.11.225
+      algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
+        kex:
+          - curve25519-sha256
+          - curve25519-sha256@libssh.org
+          - diffie-hellman-group14-sha256
+          - diffie-hellman-group16-sha512
+          - ext-info-c
+          - ext-info-s
+          - kex-strict-c-v00@openssh.com
+          - kex-strict-s-v00@openssh.com
+          - mlkem768x25519-sha256
+        cipher:
+          - aes128-ctr
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm@openssh.com
+          - chacha20-poly1305@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+        compression:
+          - none
+      input: {}
+      user: nloginov
+      privateKeys:
+        - >-
+          vault://fcb25328ab59feb9b1f0f3192a5d20af155df8c6e13d39a207502744bf186b96
+      forwardedPorts: []
+      scripts: []
+    weight: -1
+    color: '#ffd500'
+    name: ITP Wireguard Office
+    group: 360a458e-9c5e-4075-8f45-21a9eb911326
+    id: ssh:custom:ITP-Office-Wireguard:9ee7c926-6d71-4365-a4a7-fa192d039a1a
+    icon: fas fa-network-wired
     type: ssh
   - options:
       host: 192.168.3.110
