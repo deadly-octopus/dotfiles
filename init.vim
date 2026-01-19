@@ -14,6 +14,7 @@
 :set wildmenu
 :set wildmode=longest:full,full
 :set background=dark
+:set clipboard=unnamedplus
 
 function! HalfPageToggle(dir)
   let delta = winheight(0) / 2
