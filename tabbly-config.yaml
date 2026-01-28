@@ -353,7 +353,7 @@ ssh:
     - host: 192.168.10.100
       port: 22
       type: ssh-rsa
-      digest: zBXWC8Z4F6qWrjSAgG07Krgr2IAebT6pH7cGk1JSDYI=
+      digest: cXOBIQdNhNFUzeHI59AH4uV+e2S4+82f55RqKEJtZPw=
     - host: 192.168.10.105
       port: 22
       type: ecdsa-sha2-nistp256
@@ -416,9 +416,9 @@ pluginBlacklist:
 vault:
   version: 1
   contents: >-
-    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
-  keySalt: 3bec9ef21afc63f6
-  iv: 99690218162b8d8ce8794d105e6e4abc
+    P3cNcu0ZIcXA6oWvCFyN7eOhwrOrGtIwUp/X9nT7HSkWF8RpQi/YLYeYIruc0BeSiovxFIJd2tEDzA4eXIy2P9cxl8nA7TNHx0ziwiI0fQYKQ8uuxmlPE+51KoEAYVf6hk+1Oq9XjJ8DEhulAwxQqOUPvr14BunYox44shDcPVFt9herNt8nC0P8Ie2m5/ZcEyq6OGuBBBWB6yW6w8k0dRzwVfBj0MRKUoIFfzEqFx7s/9XGl45iAtpOhKnFnq1CsLm1sp3q7EAFR3xu8yc5SuB77r3k054HvfOMk8++Luti+R5liSY1Eu4tWcP/eYZd6C08V38ALzs5ylzrrJvjFvjSETxLMUVGLWiVm3cVvjavJtJywj3qGZM11Z2NiFtQ6mtNNt9GfNHkFUjZ8lJS/axrL4qp9dD/239t5tbrxvobFMLmAqdlLPdGOeER1PwFUD1qW6OfIAeGfF6vUvRxxbU0SZorPRsP9wiDpdOtdjMY2G+iNjYnDOVHSqlAApUu6QBU5ho4Hk9w2AyQ1gxudvTKLGwa1o269kHMWM6k0Q/d4mF1kfs9WruHpVA1yC/+ELT3XYSlC4T3dfpJPqk876ECLmXvwh/ElPmt5ypus/DADyCH3TY741NyGg8bmL2yd1U3UOlHt3DOsYjFXXwZQQ33JPRCXSuI2X84nq3q0gGjXJ8n5/FCVC4q2jNbPQGytbmymsnH4/Lw+hIXy/6Y0HiUs/ibGO4CdvZ4ZhUbJUUf24dRRlQjLfU0E4UaLbjA7c3BwUhgs9j7naxPduxFwYUS9D5L3RAo5XKGwKwbQshYxeNvLhBnzupHuT0a0oPbjSnWt1/qssSr2HKmbGPv36+2n+lbAIkJI0N0OCXN8wHDAlULTNDzUBs0nBC9iN/zYE15IhI21/nJMdKa0d6JnOOj7qh8xteXo+46UhiFMwjCarg9y8diEoaqLkop94X4FSlrWodG+cKIzk4NRth8MV2e9Qsufxk5KIOkmOup8SVAnfdOYy8wqGY2Zx27nB7OD8ez6b7L4YUUqLvobZIRwlvXrj9H1IEcn71b6v3R0aWs8t9rHpkPTzs+xs7hxXogYejcjjRuz1PR56WNjeAiLdsSTHlbIbsjwyFU2q4ZYGs/q6WsCPbRPqX8WD90ujsXJaRKtAqsaUKr+9pg4yj5lYC3jG0DvBF2Bps6p89En6Pr3LZPyQhCqOfmB1qvkPL8FKm14onzB+kElLCojGnwlGXH0HRppN0G4sYTZruKCkCVrRTIEZRyezpJ2x357YibvpCS6QweraAy9LVzpX93ZHWDRPs/nOcgYt0Xp/SfC58mtyjYSKIUpENs38yTe4NrjJSWYS+XlR4UHHDjD8/FwE0fmertzQOcb11rHdgRLKirkrhrJc59N47vSJnZsaiWJ12Z9+eTP8TiOHzKONSCmZo0hHFr6sAVw7tBsxt3shbwNuhBqh1zFn1ohRjZbJ8uSlFDgj5EmR7aVYOcjnkH/dSaWoCtZ5Q8GPsTldNsgc8OZhdh6pE/y5eIBnLZqnvPOCZUHyDBfTssqBRffa2uunYPHXPdyKZ25sF9CnwdUeLasPd2krvuXfOeOHMyAvE8b39o1awopIuhtZ5Uv4SuFTqrIud5rzDam8BNjEISzKOLwGsir+KXxRKP7NKb9CAV59krytiM5zWMB8WO6RDKlsu23eWxjsUsEEC5hdhY3VpSri0RaXBFHbYW+SrDGLCCqRCi7EC4NSjhqKCMigBdQQwPMroJwt9NzMctdh6qyCC1b4f6D2zkPzBj4yPfCzx0t+meFIEKvuX4Yk19xSvx9nP6BHmyuonJnYkNJfOZ7LnEuSar0pcwxidgbTO9MeU1uz4z1coLiTci39Mo+bj+7S8Ip4QUTj2D2m1iHSPzu6RPGEbYyp8nePvsEQi3gx33kWUFkFnXNCl8fqGxhIC1oFinTgwZJbBMybTREztJFmKJeIa7Nrn5EdHpPjhs5mqDmcTPvxq1UuGgiVqno0R5LtOEn5S6c+cSgbJsSCIPTxZJjXycsOwxIWllIbEtEK4D3MzmeBcmZZsRiuGOKH5GTqhNuWLclWWp62WeTtH63St1tVXYGAm8JvFFsCBRBf1hu9wXmpqtHnE5Fk2trZkzJoa3i8qEItejhZHd3a7jzIlGrwn13+Gq2lLXlL7jNidWd2I8ihwYkzrnA0t5Qy5qrfRybrU6OJFd3qVx2mtj3sMX8/SrxOstd84eyclx5lSiERNfZ2Tzy1mWhg5eImvuWv2iEQrFa6ScWTmFeNc3wvFeVXczsUJ+1kNrp3jrtPmYdVdVLSXHLasiHc0Q7LVKZb4KbHjOISIkhqYbOZE8hliwrilQARAdXNcAxnIG4o90/MDmyVumZ6pEZU9XP9T2w/uCUL2sohhIfeYcM3tbQM5IQwHIOfBHD4Csjn4lhyhFxEEhleI4x9ufvYMmWCTJX0yFOwpY8Qwxet9A0PXLZ6z2HFPOEZTuKE1OQwi7pnlL/JKdIMFcgAn/sSdtE9lqEsxdFGVoGbvtjUrC0Hty2nPahqMu1MKZDOIqw7mEsDvM19YzTlC3Tulcs/MyaCO4PYECU4PCqGKebP1mtygAoyqwbaUAs5rQAD5HIjBeok/JsSHQSnw8iwIBoYzFoeta11TTCK7/kykDwRoOZO/EFRNdEg9rmESOVuKzFQVo3cWpype8i9muBdMCrzMjlT0ynEq2CtrotuxQP2G0JRF7WSQHv4q6sc/L5ALSabev8zUXVh1p8jvw1hN7V6YdQMuxVdBMY5W2OHT4hlZQlnNJqMZsUWJDlLKE0Q11A1zs1rpxsCEOHO206LgcHuf5xVw08ySlcYfGrjak7EEVxbtl8aiMo14f5aN1Xtg9DJbXqKKq8IriUIUtsbu42VFyPgssPP4YqIX/5BsOBZC+Jxe1iQ664aXXAYGwKO1Lusbwrfj3+qW1W2J83020G1Kdr8E67jHtz9gYBNGONIU2SYJI9EsjJCPz1RSo73xNXnQJfMeXbmOB2DD48fH0wk5R8+WEul3rS9mv+f6rXroJOH4yDMX1WqX0CjuPf2wB+lvB+B4jDUb2XhXA3QnQh3197+lOc3HXJOuYYH4rytlhmQQtFQTgc7M5u3RH/2dHldfgl6+bIaZ0kFaBHIBsbeONpoNqlemUVQ6ZJQLNyPDiRo4lI2q3Fm59233kEA+kW3GKAASd7mwflDSrwUkKT3y/Ckvx0ROG5KTujq/4kh/M52LvGf0fawQZ93RhDmFEu9y1uxpTa8yqPxQUQ9zD/groeQClkpTOF4ptfZKHwc4VU5Q82REfDH/oHWWnYiBStFnFYaMEDzKMl0K+QzNRo9HmWJ9OMI0Bqsaq6jKICVN43axwJYrgtAtbn4dc5t8ROYmdTrDqRI51gmvG+U4ebaIv/Wc8/YGD29URiF5syYxsvrd/FyN6cmwOvNbXGBiQEfDNhtLkJGgFYSsKoVfovOnepihZSyKAPJPKPzDvcMFpZLUk9CuoO13e/oF2o1Nca48a2VNtgQtS2Ixn8jytdnA7AeEe32CLSVICxBg5GiCpV6EP3lj5NxuCFAD9VsyEqoIIyOlUa0SOUDtEwCb8FefIvZvGA1mdtFIn4KfwmXfc/yWWyQthnsla4R3Oybn7QvkzODSIgSqRRF4dvkroE1kPgYXVd7eJxOA09DdiO6p3tgEnEsFOIfr1StE1uIjctrm6eNrs9MsUrLqH3aZSyjJEUcmYlBUDP/RIhuGWNQbEw8AbYLv9tRBLsVhSXZfc/OhQ/bWSWZvV5N7kKMV1gmNH1AjE79vQwZ1CpgQQ5432LASpRlIP+i56gE1ER91fffaOrGe2KSnii3PNy3T2lwx+gb75FE2+Gb6ZNFCUjnp3aHdIhqK0BNDeYDA1Cdu92qeUJHnogb98DCx7dWyjQ+lmF4qq6A==
+  keySalt: 6bd95449bca45689
+  iv: 9fed5d60176271d1692e65a53a053fb4
 profileDefaults:
   ssh:
     disableDynamicTitle: true
@@ -535,6 +535,8 @@ profiles:
           - rsa-sha2-512
           - ssh-ed25519
           - ssh-rsa
+        compression:
+          - none
       input: {}
       user: admin
       auth: password
@@ -549,7 +551,7 @@ profiles:
     group: b55a8240-4a99-4d31-92b3-f16237b7ccf7
     id: ssh:custom:Home-mikrotik:74a033e2-8dca-41a7-a1c0-059b87c95f7c
     type: ssh
-  - name: OpenWrt
+  - name: OpenWrt Old
     icon: fas fa-server
     options:
       host: 192.168.1.1
@@ -564,18 +566,11 @@ profiles:
     color: '#ffd500'
     group: b55a8240-4a99-4d31-92b3-f16237b7ccf7
     type: ssh
-  - name: OpenWrt VM
+  - name: OpenWrt
     icon: fas fa-server
     options:
       host: 192.168.10.100
       algorithms:
-        hmac:
-          - hmac-sha1
-          - hmac-sha1-etm@openssh.com
-          - hmac-sha2-256
-          - hmac-sha2-256-etm@openssh.com
-          - hmac-sha2-512
-          - hmac-sha2-512-etm@openssh.com
         kex:
           - curve25519-sha256
           - curve25519-sha256@libssh.org
@@ -585,6 +580,13 @@ profiles:
           - ext-info-s
           - kex-strict-c-v00@openssh.com
           - kex-strict-s-v00@openssh.com
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
         cipher:
           - aes128-ctr
           - aes192-ctr
@@ -610,8 +612,8 @@ profiles:
     weight: -1
     color: '#ffd500'
     group: b55a8240-4a99-4d31-92b3-f16237b7ccf7
-    type: ssh
     id: ssh:custom:OpenWrt-VM:ccd179f7-1881-473e-86da-682d03e13c71
+    type: ssh
   - name: Prometheus / Grafana
     options:
       host: 192.168.10.101
