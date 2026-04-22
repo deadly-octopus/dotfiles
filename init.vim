@@ -44,13 +44,22 @@ endfunction
 nnoremap <silent> <C-d> :call HalfPageToggle('down')<CR>
 nnoremap <silent> <C-u> :call HalfPageToggle('up')<CR>
 
-":hi Normal guibg=NONE ctermbg=NONE
-":hi EndOfBuffer guibg=NONE ctermbg=NONE
+:hi Normal guibg=NONE ctermbg=NONE
+:hi EndOfBuffer guibg=NONE ctermbg=NONE
 
 let g:airline_theme = 'dark_minimal'
 let g:airline_section_z = 'lines:%L'
 let g:airline_section_warning = ''
 let g:airline_section_error = ''
+let g:PaperColor_Theme_Options = {
+  \   'theme': {
+  \     'default': {
+  \       'override' : {
+  \         'color00' : ['#101220']
+  \       }
+  \     }
+  \   }
+  \ }
 
 call plug#begin()
 
@@ -75,12 +84,3 @@ Plug 'arcticicestudio/nord-vim'
 call plug#end()
 
 colorscheme PaperColor
-let g:PaperColor_Theme_Options = {
-  \   'theme': {
-  \     'default': {
-  \       'transparent_background': 1
-  \     }
-  \   }
-  \ }
-
-
