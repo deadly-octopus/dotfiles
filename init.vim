@@ -46,7 +46,7 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree'
 Plug 'arcticicestudio/nord-vim'
-Plug 'chr4/nginx.vim'
+Plug 'deadly-octopus/nginx.vim'
 
 call plug#end()
 
