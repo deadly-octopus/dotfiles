@@ -15,7 +15,7 @@
 :set clipboard=unnamedplus
 :set background=dark
 
-let g:airline_theme = 'dark_minimal'
+let g:airline_theme = 'night_owl'
 let g:airline_section_z = 'lines:%L'
 let g:airline_section_warning = ''
 let g:airline_section_error = ''
