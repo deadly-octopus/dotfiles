@@ -47,6 +47,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree'
 Plug 'arcticicestudio/nord-vim'
 Plug 'deadly-octopus/nginx.vim'
+Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
 
