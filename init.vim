@@ -15,6 +15,7 @@
 :set clipboard=unnamedplus
 :set background=dark
 
+let mapleader = " "
 let g:airline_theme = 'night_owl'
 let g:airline_section_z = 'lines:%L'
 let g:airline_section_warning = ''
@@ -29,8 +30,28 @@ let g:PaperColor_Theme_Options = {
   \   }
   \ }
 
-call plug#begin()
+" Nvim Tree key bindings
+nnoremap <leader>e :NvimTreeToggle<CR>
+nnoremap <leader>h <C-w>h
+nnoremap <leader>l <C-w>l
+nnoremap <leader>j <C-w>j
+nnoremap <leader>k <C-w>k
+nnoremap <leader><Left>  <C-w>h
+nnoremap <leader><Right> <C-w>l
+nnoremap <leader><Down>  <C-w>j
+nnoremap <leader><Up>    <C-w>k
 
+"" LSP key bindings
+"nnoremap <leader>ld :lua vim.diagnostic.open_float()<CR>
+"nnoremap <leader>ln :lua vim.diagnostic.goto_next()<CR>
+"nnoremap <leader>lp :lua vim.diagnostic.goto_prev()<CR>
+"nnoremap <leader>la :lua vim.lsp.buf.code_action()<CR>
+"nnoremap <leader>lr :lua vim.lsp.buf.rename()<CR>
+"nnoremap <leader>lf :lua vim.lsp.buf.format()<CR>
+
+
+call plug#begin()
+" Themes
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'morhetz/gruvbox'
@@ -41,17 +62,33 @@ Plug 'EdenEast/nightfox.nvim'
 Plug 'tomasr/molokai'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'projekt0n/github-nvim-theme'
-Plug 'sheerun/vim-polyglot'
-Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-fugitive'
-Plug 'scrooloose/nerdtree'
 Plug 'arcticicestudio/nord-vim'
+
+" Not themes
+Plug 'sheerun/vim-polyglot'
+Plug 'tpope/vim-fugitive'
 Plug 'deadly-octopus/nginx.vim'
 Plug 'ryanoasis/vim-devicons'
+Plug 'nvim-tree/nvim-web-devicons'
+Plug 'nvim-tree/nvim-tree.lua'
+Plug 'hrsh7th/nvim-cmp'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-buffer'
+Plug 'windwp/nvim-autopairs'
+" Plug 'nvimdev/lspsaga.nvim'
+" Plug 'scrooloose/nerdtree'
+" Plug 'tpope/vim-commentary'
+" Plug 'nvim-treesitter/nvim-treesitter'
+" Plug 'nvim-treesitter/nvim-treesitter-context'
+" Plug 'neovim/nvim-lspconfig'
+" Plug 'williamboman/mason.nvim'
 
 call plug#end()
 
+" Lua section
 lua << EOF
+
+-- nightfox setup 
 require('nightfox').setup({
   options = {
     transparent = true,
@@ -62,6 +99,37 @@ require('nightfox').setup({
     },
   },
 })
+
+require('nvim-tree').setup{}
+
+-- require('mason').setup{}
+
+-- LSP setup
+-- vim.lsp.config('gopls', {})
+-- vim.lsp.enable('gopls')
+-- vim.lsp.config('nginx_language_server', {}) 
+-- vim.lsp.enable('nginx_language_server')
+
+-- autocomplete setup
+local cmp = require('cmp')
+cmp.setup({
+  sources = {
+    { name = 'nvim_lsp' },
+    { name = 'buffer' },
+  },
+  mapping = cmp.mapping.preset.insert({
+    ['<Tab>']   = cmp.mapping.select_next_item(),
+    ['<S-Tab>'] = cmp.mapping.select_prev_item(),
+    ['<CR>']    = cmp.mapping.confirm({ select = true }),
+  }),
+})
+
+-- nvim-autopairs setup
+require('nvim-autopairs').setup{}
+local cmp_autopairs = require('nvim-autopairs.completion.cmp')
+local cmp = require('cmp')
+cmp.event:on('confirm_done', cmp_autopairs.on_confirm_done())
+
 EOF
 
 colorscheme nightfox
