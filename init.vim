@@ -41,15 +41,6 @@ nnoremap <leader><Right> <C-w>l
 nnoremap <leader><Down>  <C-w>j
 nnoremap <leader><Up>    <C-w>k
 
-"" LSP key bindings
-"nnoremap <leader>ld :lua vim.diagnostic.open_float()<CR>
-"nnoremap <leader>ln :lua vim.diagnostic.goto_next()<CR>
-"nnoremap <leader>lp :lua vim.diagnostic.goto_prev()<CR>
-"nnoremap <leader>la :lua vim.lsp.buf.code_action()<CR>
-"nnoremap <leader>lr :lua vim.lsp.buf.rename()<CR>
-"nnoremap <leader>lf :lua vim.lsp.buf.format()<CR>
-
-
 call plug#begin()
 " Themes
 Plug 'vim-airline/vim-airline'
@@ -75,13 +66,7 @@ Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'windwp/nvim-autopairs'
-" Plug 'nvimdev/lspsaga.nvim'
-" Plug 'scrooloose/nerdtree'
-" Plug 'tpope/vim-commentary'
-" Plug 'nvim-treesitter/nvim-treesitter'
-" Plug 'nvim-treesitter/nvim-treesitter-context'
-" Plug 'neovim/nvim-lspconfig'
-" Plug 'williamboman/mason.nvim'
+Plug 'tpope/vim-commentary'
 
 call plug#end()
 
