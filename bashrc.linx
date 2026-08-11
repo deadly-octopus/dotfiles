@@ -69,7 +69,7 @@ cmd() {
         [ps_top5_cpu]="ps --sort=-%cpu -eo user,pid,ppid,state,comm | head -n6"
         [ps_top5_mem]="ps --sort=-%mem -eo user,pid,ppid,state,comm | head -n6"
         [du_top20]='du -h / 2> /dev/null | sort -rh | head -n 20'
-        [ss_listen]="ss -tulpn | awk 'NR>1 && $7 ~ /users/ {split($7,b,"\"");print $5, b[2]}' | sort -u"
+        [ss_listen]='ss -tulpn | sed -nE "s/^\S+\s+\S+\s+\S+\s+\S+\s+(\S+)\s+\S+\s+users:\(\(\"([^\"]+)\".*/\1 \2/p" | sort -u'
         [dig]="dig +short +answer +identify"
         [systemd_list-units]='systemctl list-units --type=service --state=running'
     )
